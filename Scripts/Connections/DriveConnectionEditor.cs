@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using GoogleSheetsForUnity.Scripts.Scriptables;
 using UnityEditor;
 using UnityEngine.Networking;
@@ -46,3 +47,4 @@ namespace GoogleSheetsForUnity.Scripts.Connections
         }
     }
 }
+#endif
