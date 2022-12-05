@@ -1,0 +1,1 @@
+com.crazysummerlab.google-sheets-for-unity copyright © 2022 CrazySummerLab Technologies ApS
