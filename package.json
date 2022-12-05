@@ -1,13 +1,13 @@
 {
-  "name": "com.doublethinkgames.google-sheets-for-unity",
+  "name": "com.crazysummerlab.google-sheets-for-unity",
   "displayName": "GoogleSheetsForUnity",
   "description": "This plugin provides the GoogleSheetsForUnity for Unity runtime core.",
   "version": "1.0.0",
   "unity": "2018.3",
   "author": {
-    "name": "Doublethink Software",
-    "email": "wangce@doublethinkgames.com",
-    "url": "https://www.doublethinkgames.com/"
+    "name": "CrazySummerLab Software",
+    "email": "crazysummerlab@gmail.com",
+    "url": ""
   },
   "dependencies": {
   }
