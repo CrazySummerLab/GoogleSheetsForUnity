@@ -1,11 +1,10 @@
 using UnityEngine;
 
-namespace GoogleSheetsForUnity.Scripts.Scriptables
+namespace GoogleSheetsForUnity.Runtime
 {
     /// <summary>
     /// We use ScriptableObjects for connection data, so the app can have multiple connection presets, that can be interchangeable.
     /// </summary>
-    [CreateAssetMenu(fileName = "ConnectionData", menuName = "Google Sheets For Unity/Connection Data Asset", order = 0)]
     public class ConnectionData : ScriptableObject
     {
         [Tooltip("URL of the webapp deployed on Google Drive.")]

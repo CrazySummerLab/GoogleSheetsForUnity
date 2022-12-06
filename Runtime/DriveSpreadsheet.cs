@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
-using GoogleSheetsForUnity.Scripts.Connections;
-using GoogleSheetsForUnity.Scripts.Enums;
-using GoogleSheetsForUnity.Scripts.Scriptables;
-using GoogleSheetsForUnity.Scripts.Structs;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
 
-namespace GoogleSheetsForUnity.Scripts
+namespace GoogleSheetsForUnity.Runtime
 {
     public class DriveSpreadsheet
     {
+        #region Variables: Misc
+        public static string[] GlobalSources = { "ConnectionData" };
+        #endregion
+
         /// <summary>
         ///  Subscribe to this event to receive the response data from Google Drive.
         /// </summary>

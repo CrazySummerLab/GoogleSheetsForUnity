@@ -1,7 +1,6 @@
 using System;
-using GoogleSheetsForUnity.Scripts.Enums;
 
-namespace GoogleSheetsForUnity.Scripts.Structs
+namespace GoogleSheetsForUnity.Runtime
 {
     [Serializable]
     public struct ContainerDataStruct

@@ -1,5 +1,5 @@
 {
-  "name": "com.crazysummerlab.google-sheets-for-unity",
+  "name": "com.crazysummerlab.googlesheets.forunity",
   "displayName": "GoogleSheetsForUnity",
   "description": "This plugin provides the GoogleSheetsForUnity for Unity runtime core.",
   "version": "1.0.0",
@@ -7,7 +7,7 @@
   "author": {
     "name": "CrazySummerLab Software",
     "email": "crazysummerlab@gmail.com",
-    "url": ""
+    "url": "https://github.com/CrazySummerLab/GoogleSheetsForUnity/issues"
   },
   "dependencies": {
   }

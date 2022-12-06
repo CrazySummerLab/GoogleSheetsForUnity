@@ -1,4 +1,4 @@
-namespace GoogleSheetsForUnity.Scripts.Enums
+namespace GoogleSheetsForUnity.Runtime
 {
     public enum DriveQueryType
     {

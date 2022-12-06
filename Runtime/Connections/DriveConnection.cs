@@ -1,9 +1,8 @@
 using System.Collections;
-using GoogleSheetsForUnity.Scripts.Scriptables;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace GoogleSheetsForUnity.Scripts.Connections
+namespace GoogleSheetsForUnity.Runtime
 {
     public class DriveConnection : MonoBehaviour
     {
