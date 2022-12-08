@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.IO;
 using GoogleSheetsForUnity.Runtime;
 using UnityEditor;
@@ -5,7 +6,6 @@ using UnityEngine;
 
 namespace GoogleSheetsForUnity.Editor
 {
-    [InitializeOnLoad]
     public class UpgradeManager 
     {
         [MenuItem("Tools/GoogleSheetsForUnity/ConnectionData.asset", false, 0)]
@@ -19,7 +19,7 @@ namespace GoogleSheetsForUnity.Editor
             Selection.activeObject = GO;
         }
 
-        public static void CreateConnectionSources()
+        private static void CreateConnectionSources()
         {
             if (DriveSpreadsheet.GlobalSources == null || DriveSpreadsheet.GlobalSources.Length == 0)
                 return;
@@ -61,3 +61,4 @@ namespace GoogleSheetsForUnity.Editor
         }
     }
 }
+#endif

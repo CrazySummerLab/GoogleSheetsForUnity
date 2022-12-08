@@ -1,7 +1,9 @@
 {
-    "name": "DriveSpreadsheet",
+    "name": "UpgradeManager.editor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "DriveSpreadsheet"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
